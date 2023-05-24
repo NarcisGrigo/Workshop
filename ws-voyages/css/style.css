@@ -1,0 +1,17 @@
+body {
+    color: white;
+    margin: auto;
+}
+
+.logo {
+  background-image: linear-gradient(rgb(45, 253, 149), rgb(34, 193, 195));
+  display: flex;
+  justify-content: flex-end;
+  justify-content: space-between;
+}
+
+.lien {
+  background-color: rgb(34, 193, 195);
+  display: flex;
+  justify-content: flex-end;
+}
