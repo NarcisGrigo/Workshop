@@ -1,6 +1,5 @@
 body {
     color: white;
-    margin: auto;
 }
 
 .logo {
@@ -14,4 +13,5 @@ body {
   background-color: rgb(34, 193, 195);
   display: flex;
   justify-content: flex-end;
+  justify-content: space-evenly;
 }
