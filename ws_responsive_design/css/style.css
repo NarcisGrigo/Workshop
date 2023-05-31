@@ -1,0 +1,123 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    vertical-align: baseline;
+}
+
+*{
+    box-sizing: border-box;
+
+}
+
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+header {
+    height: 100px;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.containter {
+    width: 1400px;
+    margin: auto;
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+}
+
+ul>li {
+    padding: 0 5px;
+}
+
+/* a:hover {
+    background-color: rgb(187, 187, 236);
+} */
+
+/* .hover {
+  --c:linear-gradient(#000 0 0); /* update the color here */
+  /* padding-bottom: .15em;
+  background: var(--c), var(--c);
+  background-size: .3em .1em;
+  background-position:50% 100%;
+  background-repeat: no-repeat;
+  transition: .3s linear, background-size .3s .2s linear;
+} */
+
+/* .hover:hover {
+  background-size: 40% .1em;
+  background-position: 10% 100%, 90% 100%;
+} */
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+header h1 {
+    color: white;
+}
+
+header>div:first-child {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    margin-left: -100px;
+}
+
+header>div>h2 {
+    margin-left: -90px;
+}
+
+.hover {
+  --c:linear-gradient(#000 0 0); /* update the color here */
+  padding-bottom: .15em;
+  background: var(--c), var(--c);
+  background-size: .3em .1em;
+  background-position:50% 100%;
+  background-repeat: no-repeat;
+  transition: .3s linear, background-size .3s .2s linear;
+}
+
+.hover:hover {
+  background-size: 40% .1em;
+  background-position: 10% 100%, 90% 100%;
+}
+
+@media (min-width : 1400px) {
+    header {
+        background-color: lavender;
+    }
+}
+
+@media (max-width : 1400px) and (min-width : 960px) {
+    header {
+        background-color: rgb(245, 136, 33);
+    }
+}
+
+@media (max-width : 960px) {
+    header {
+        background-color: rgb(50, 170, 50);
+    }
+}
