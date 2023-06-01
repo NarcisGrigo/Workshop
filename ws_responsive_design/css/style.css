@@ -1,3 +1,5 @@
+/* https://fonts.google.com/ */
+/* @font-face */
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -23,7 +25,8 @@ time, mark, audio, video {
 }
 
 body {
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    /* font-family: 'Josefin Sans', sans-serif; */
+    font-family: 'Dancing Script', cursive;
 }
 
 header {
@@ -67,6 +70,22 @@ ul>li {
   background-position: 10% 100%, 90% 100%;
 } */
 
+.rectangle {
+    width: 500px;
+    height: 50px;
+    background-color: rgb(238, 0, 48);
+    position: absolute;
+    top: -25px;
+    left: 32%;
+}
+
+.position {
+    width: auto;
+    height: 500px;
+    background-color: rgb(156, 89, 102);
+    position: relative;
+}
+
 a {
     text-decoration: none;
     color: black;
@@ -81,7 +100,13 @@ header>div:first-child {
     align-items: center;
 }
 
-.logo {
+
+.logo1 {
+    margin-left: -100px;
+}
+
+.logo2 {
+    display: none;
     margin-left: -100px;
 }
 
@@ -104,9 +129,18 @@ header>div>h2 {
   background-position: 10% 100%, 90% 100%;
 }
 
+footer {
+    position: fixed;
+    bottom: 0;
+}
+
 @media (min-width : 1400px) {
     header {
-        background-color: lavender;
+        background-color: rgb(219, 155, 103);
+    }
+
+    header h2 {
+        font-size: 35px;
     }
 }
 
@@ -114,10 +148,26 @@ header>div>h2 {
     header {
         background-color: rgb(245, 136, 33);
     }
+
+    header h2 {
+        font-size: 25px;
+    }
 }
 
 @media (max-width : 960px) {
     header {
         background-color: rgb(50, 170, 50);
+    }
+
+    header h2 {
+        font-size: 25px;
+    }
+
+    .logo2 {
+        display: inline;
+    }
+
+    .logo1 {
+        display: none;
     }
 }
