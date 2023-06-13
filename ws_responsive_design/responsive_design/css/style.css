@@ -44,6 +44,10 @@ img {
   flex-wrap: wrap;
   justify-content: space-evenly;
 }
+.images img {
+  width: 25%;
+  padding: 10px;
+}
 
 .menu ul {
   list-style-type: none;
@@ -133,6 +137,22 @@ footer {
   }
   .col-s-12 {
     width: 100%;
+  }
+}
+
+@media (max-width:960px) {
+
+  .images img {
+    width: 50%;
+    padding: 10px;
+  }
+}
+
+@media (max-width:600px) {
+
+  .images img {
+    width: 100%;
+    padding: 10px;
   }
 }
 
